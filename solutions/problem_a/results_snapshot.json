@@ -1,0 +1,309 @@
+{
+  "baseline": {
+    "all": {
+      "tiles": 203,
+      "evaluated_tiles": 203,
+      "valid_pixels": 13023279,
+      "true_km2": 190.98243952487252,
+      "pred_km2": 155.79953509010775,
+      "error_km2": -35.182904434764765,
+      "signed_relative_error": -0.18422062532185182,
+      "tile_mae_km2": 0.2525799009952401,
+      "tile_rmse_km2": 0.5608723879406105,
+      "wape": 0.2684734786590477,
+      "median_tile_abs_relative_error": 0.30900163857350316,
+      "tiles_for_relative_error": 201,
+      "fp_km2": 19.394043937220477,
+      "fn_km2": 54.57694837198524,
+      "iou": 0.6483875426954063,
+      "dice": 0.7866930875189431,
+      "precision": 0.8755192438411077,
+      "recall": 0.714230541259384,
+      "pixel_accuracy": 0.9244082077946729,
+      "pixel_iou": 0.6481686383744294,
+      "tile_mean_iou": 0.36349138168995276,
+      "tiles_for_mean_iou": 202
+    },
+    "west": {
+      "tiles": 104,
+      "evaluated_tiles": 104,
+      "valid_pixels": 6546789,
+      "true_km2": 13.260283318053013,
+      "pred_km2": 16.233828700644615,
+      "error_km2": 2.9735453825916043,
+      "signed_relative_error": 0.2242444834148691,
+      "tile_mae_km2": 0.08657199010674743,
+      "tile_rmse_km2": 0.13150528343140014,
+      "wape": 0.6789814934680974,
+      "median_tile_abs_relative_error": 0.46636505819573054,
+      "tiles_for_relative_error": 103,
+      "fp_km2": 10.548026930073,
+      "fn_km2": 7.574481547481396,
+      "iou": 0.23881584670710324,
+      "dice": 0.38555504006814206,
+      "precision": 0.35024404134225245,
+      "recall": 0.42878433546218186,
+      "pixel_accuracy": 0.9630322590204144,
+      "pixel_iou": 0.2388183159146163,
+      "tile_mean_iou": 0.1740366940588367,
+      "tiles_for_mean_iou": 103
+    },
+    "east": {
+      "tiles": 99,
+      "evaluated_tiles": 99,
+      "valid_pixels": 6476490,
+      "true_km2": 177.72215620681945,
+      "pred_km2": 139.5657063894631,
+      "error_km2": -38.15644981735636,
+      "signed_relative_error": -0.2146972028234499,
+      "tile_mae_km2": 0.4269720498073939,
+      "tile_rmse_km2": 0.7917552556633578,
+      "wape": 0.23784447495528432,
+      "median_tile_abs_relative_error": 0.19993651201032775,
+      "tiles_for_relative_error": 98,
+      "fp_km2": 8.846017007147475,
+      "fn_km2": 47.002466824503834,
+      "iou": 0.7006537456546722,
+      "dice": 0.8239816569891519,
+      "precision": 0.9366175456994976,
+      "recall": 0.7355283785224507,
+      "pixel_accuracy": 0.8853649121669299,
+      "pixel_iou": 0.700647426000825,
+      "tile_mean_iou": 0.5606008041748513,
+      "tiles_for_mean_iou": 99
+    }
+  },
+  "fusion": {
+    "all": {
+      "tiles": 203,
+      "evaluated_tiles": 203,
+      "valid_pixels": 13023279,
+      "true_km2": 190.98243952487252,
+      "pred_km2": 167.73668233371436,
+      "error_km2": -23.245757191158155,
+      "signed_relative_error": -0.12171672562665509,
+      "tile_mae_km2": 0.18913768867592554,
+      "tile_rmse_km2": 0.36643285127542224,
+      "wape": 0.20103916829595495,
+      "median_tile_abs_relative_error": 0.6401342541547714,
+      "tiles_for_relative_error": 201,
+      "fp_km2": 15.488223972205596,
+      "fn_km2": 38.73398116336375,
+      "iou": 0.7373854269793797,
+      "dice": 0.8488449546412955,
+      "precision": 0.9076634653987519,
+      "recall": 0.7971856404194729,
+      "pixel_accuracy": 0.9446059629068839,
+      "pixel_iou": 0.7372418354740203,
+      "tile_mean_iou": 0.35769274305325255,
+      "tiles_for_mean_iou": 203
+    },
+    "west": {
+      "tiles": 104,
+      "evaluated_tiles": 104,
+      "valid_pixels": 6546789,
+      "true_km2": 13.260283318053014,
+      "pred_km2": 3.5832896378938246,
+      "error_km2": -9.67699368015919,
+      "signed_relative_error": -0.7297727694086741,
+      "tile_mae_km2": 0.09544106200364776,
+      "tile_rmse_km2": 0.14323881470237027,
+      "wape": 0.7485413554374015,
+      "median_tile_abs_relative_error": 0.859655604778457,
+      "tiles_for_relative_error": 103,
+      "fp_km2": 0.5904198346673554,
+      "fn_km2": 10.267413514826545,
+      "iou": 0.21608071230944326,
+      "dice": 0.35537232047548417,
+      "precision": 0.8352296648243064,
+      "recall": 0.2257017992331937,
+      "pixel_accuracy": 0.9778521959391084,
+      "pixel_iou": 0.2160120682570236,
+      "tile_mean_iou": 0.14315176905775898,
+      "tiles_for_mean_iou": 104
+    },
+    "east": {
+      "tiles": 99,
+      "evaluated_tiles": 99,
+      "valid_pixels": 6476490,
+      "true_km2": 177.72215620681945,
+      "pred_km2": 164.15339269582046,
+      "error_km2": -13.568763510998966,
+      "signed_relative_error": -0.07634818190709254,
+      "tile_mae_km2": 0.28756646821043963,
+      "tile_rmse_km2": 0.5037598109565739,
+      "wape": 0.16018869543594433,
+      "median_tile_abs_relative_error": 0.1745204184715481,
+      "tiles_for_relative_error": 98,
+      "fp_km2": 14.897804137538245,
+      "fn_km2": 28.46656764853721,
+      "iou": 0.7748708300606516,
+      "dice": 0.8731574342614808,
+      "precision": 0.909244616313571,
+      "recall": 0.8398254429492178,
+      "pixel_accuracy": 0.9109988589498323,
+      "pixel_iou": 0.7748895956709944,
+      "tile_mean_iou": 0.5830691197757913,
+      "tiles_for_mean_iou": 99
+    }
+  },
+  "selection": {
+    "epoch": 8,
+    "threshold": 0.5,
+    "seed": 2417,
+    "objective": "WAPE + 1 - pooled area IoU",
+    "select_score": 1.2344737303662552,
+    "epochs": 24
+  },
+  "intensity": {
+    "reference_train_tiles": 436,
+    "fraction_thresholds": [
+      0.0797327287935064,
+      0.46173044926144136,
+      0.9818113003786055
+    ],
+    "quantiles": [
+      0.5,
+      0.75,
+      0.9
+    ],
+    "example_area_km2": 5.0,
+    "example_area_thresholds_km2": [
+      0.398663643967532,
+      2.308652246307207,
+      4.909056501893028
+    ],
+    "calibration": {
+      "west": {
+        "n": 31,
+        "rank": 29,
+        "half_width": 0.07586571615468712
+      },
+      "east": {
+        "n": 28,
+        "rank": 27,
+        "half_width": 0.03331559183119625
+      }
+    },
+    "nominal_coverage": 0.9,
+    "observed_fraction_coverage": 0.7783251231527094,
+    "stable_grades": 152,
+    "n_test": 203,
+    "point_grade_agreement": 0.9261083743842364,
+    "confusion_observed": [
+      [
+        130,
+        2,
+        0,
+        1
+      ],
+      [
+        5,
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        31,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "fully_observed": 147,
+    "full_tiles_point_grade_agreement": 0.9455782312925171,
+    "fully_observed_confusion": [
+      [
+        113,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        15,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "full_tiles_grade_interval_coverage": 0.9795918367346939,
+    "grade_order": [
+      "general",
+      "relatively_strong",
+      "strong",
+      "extremely_strong"
+    ]
+  },
+  "baseline_difficult_cases": {
+    "baseline": {
+      "n": 110,
+      "wape": 0.9251285180720642,
+      "mean_tile_iou": 0.11705991631960011,
+      "tn_km2": 495.6426218260175,
+      "fp_km2": 11.91631564900116,
+      "fn_km2": 13.541749028347818,
+      "tp_km2": 3.66120407194244,
+      "valid_km2": 524.7618905753088,
+      "true_km2": 17.20295310029026,
+      "pred_km2": 15.577519720943599,
+      "bias_km2": -1.6254333793466582,
+      "iou": 0.12573131912976115,
+      "recall": 0.2128241616772568,
+      "precision": 0.23503125898919838
+    },
+    "fusion": {
+      "n": 110,
+      "wape": 0.6651628925740414,
+      "mean_tile_iou": 0.12413195331156858,
+      "tn_km2": 504.5308837909443,
+      "fp_km2": 3.0280536840800982,
+      "fn_km2": 10.968300702348436,
+      "tp_km2": 6.2346523979414,
+      "valid_km2": 524.7618905753143,
+      "true_km2": 17.202953100289836,
+      "pred_km2": 9.262706082021499,
+      "bias_km2": -7.940247018268338,
+      "iou": 0.30817311587074186,
+      "recall": 0.36241756642563644,
+      "precision": 0.6730918959031404
+    }
+  },
+  "verification": {
+    "test_masks": 203,
+    "checked_registered_grids": 203,
+    "pooled_iou": 0.7373854269793697,
+    "area_error_km2": -23.245757191162824,
+    "checkpoint_reproduced_ids": [
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1059
+    ]
+  }
+}
