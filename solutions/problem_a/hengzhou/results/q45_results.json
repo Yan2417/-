@@ -1,0 +1,112 @@
+{
+  "matched_units": 12,
+  "exposed": 4567.16,
+  "resident_population": 28862.379999999997,
+  "road_overlap_km": 9.690504413815567,
+  "mapped_road_km": 51.30848214077075,
+  "building_overlap_m2": 0.0,
+  "uniform_population_alternative": 8787.050689197891,
+  "fixed_grade_units": 10,
+  "total_demand": 4575,
+  "stock": 3000,
+  "optimized": {
+    "delivered": 3000,
+    "unmet": 1575,
+    "minimum_coverage": 0.45012165450121655,
+    "weighted_shortage": 2202.8311713917938
+  },
+  "proportional": {
+    "delivered": 3000,
+    "unmet": 1575,
+    "minimum_coverage": 0.6491228070175439,
+    "weighted_shortage": 2453.958554940774
+  },
+  "sensitivity": [
+    {
+      "stock": 2400,
+      "demand_multiplier": 0.8,
+      "feasible": true,
+      "total_demand": 3661,
+      "delivered": 2400,
+      "unmet": 1261,
+      "minimum_coverage": 0.45,
+      "weighted_shortage": 1763.1327093725022
+    },
+    {
+      "stock": 2400,
+      "demand_multiplier": 1.0,
+      "feasible": true,
+      "total_demand": 4575,
+      "delivered": 2400,
+      "unmet": 2175,
+      "minimum_coverage": 0.45012165450121655,
+      "weighted_shortage": 3269.097217926362
+    },
+    {
+      "stock": 2400,
+      "demand_multiplier": 1.2,
+      "feasible": false,
+      "total_demand": 5486
+    },
+    {
+      "stock": 3000,
+      "demand_multiplier": 0.8,
+      "feasible": true,
+      "total_demand": 3661,
+      "delivered": 3000,
+      "unmet": 661,
+      "minimum_coverage": 0.45,
+      "weighted_shortage": 841.2236393480076
+    },
+    {
+      "stock": 3000,
+      "demand_multiplier": 1.0,
+      "feasible": true,
+      "total_demand": 4575,
+      "delivered": 3000,
+      "unmet": 1575,
+      "minimum_coverage": 0.45012165450121655,
+      "weighted_shortage": 2202.8311713917938
+    },
+    {
+      "stock": 3000,
+      "demand_multiplier": 1.2,
+      "feasible": true,
+      "total_demand": 5486,
+      "delivered": 3000,
+      "unmet": 2486,
+      "minimum_coverage": 0.45030425963488846,
+      "weighted_shortage": 3685.6075486840236
+    },
+    {
+      "stock": 3600,
+      "demand_multiplier": 0.8,
+      "feasible": true,
+      "total_demand": 3661,
+      "delivered": 3600,
+      "unmet": 61,
+      "minimum_coverage": 0.45,
+      "weighted_shortage": 68.2758051229651
+    },
+    {
+      "stock": 3600,
+      "demand_multiplier": 1.0,
+      "feasible": true,
+      "total_demand": 4575,
+      "delivered": 3600,
+      "unmet": 975,
+      "minimum_coverage": 0.45161290322580644,
+      "weighted_shortage": 1270.1798865354476
+    },
+    {
+      "stock": 3600,
+      "demand_multiplier": 1.2,
+      "feasible": true,
+      "total_demand": 5486,
+      "delivered": 3600,
+      "unmet": 1886,
+      "minimum_coverage": 0.45030425963488846,
+      "weighted_shortage": 2636.8983374828463
+    }
+  ]
+}

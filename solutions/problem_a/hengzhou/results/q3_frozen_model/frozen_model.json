@@ -1,0 +1,8 @@
+{
+  "epoch": 17,
+  "threshold": 0.65,
+  "seed": 2417,
+  "objective": "WAPE + 1 - pooled area IoU",
+  "select_score": 1.136043456706956,
+  "epochs": 24
+}

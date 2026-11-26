@@ -1,0 +1,36 @@
+{
+  "matches": 187,
+  "fit_inliers": 135,
+  "heldout": 47,
+  "heldout_within_2px": 46,
+  "holdout_median_reference_px": 0.5397882936760222,
+  "holdout_p90_reference_px": 1.0567119732870043,
+  "native_ground_metres_approx": 96.54104547983452,
+  "reference_scale_px_per_degree": 21625,
+  "roi_valid_km2": 55.30801475493625,
+  "source": "Dianjian-1 7 July noon display raster; unknown display stretch and polarization",
+  "threshold": 0.65,
+  "valid_optical_fraction_min": 0.75,
+  "display_dn": {
+    "predicted_km2": 0.1298649980294445,
+    "reference_comparison_km2": 37.11632744169046,
+    "union_reference_water_km2": 11.354069306272567,
+    "proxy_iou": 0.0,
+    "threshold_sensitivity": {
+      "0.55": 0.15769058874263736,
+      "0.65": 0.1298649980294445,
+      "0.75": 0.07420900594094024
+    }
+  },
+  "train_histogram": {
+    "predicted_km2": 0.046380130142992484,
+    "reference_comparison_km2": 37.11632744169046,
+    "union_reference_water_km2": 11.354069306272567,
+    "proxy_iou": 0.0,
+    "threshold_sensitivity": {
+      "0.55": 0.07420748043274875,
+      "0.65": 0.046380130142992484,
+      "0.75": 0.03710391641818321
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "bbox": [
+    109.22,
+    22.88,
+    109.3625,
+    22.92
+  ],
+  "metrics": {
+    "unit_km2": 64.76317007369944,
+    "dry": 38.51050656173247,
+    "gain": 19.250554895142375,
+    "loss": 0.005556528861225162,
+    "persistent": 0.014446612845733738,
+    "unknown": 6.982105475117639,
+    "pre_common": 0.0200031417069589,
+    "post_common": 19.26500150798811,
+    "net_common": 19.244998366281152,
+    "valid_km2": 57.7810645985818,
+    "fraction_common": 0.3331637280981297,
+    "total_fraction_lower": 0.2972454077407816,
+    "total_fraction_upper": 0.40505522414062917,
+    "optical_comparison": {
+      "common_km2": 51.637114758082554,
+      "gain_using_sar_pre": 17.88511167571901,
+      "gain_using_optical_pre": 17.885313641708322,
+      "pre_water_sar": 0.016265156103253284,
+      "pre_water_optical": 0.012931339623364034
+    }
+  },
+  "sensitivity": [
+    {
+      "dx_map_px": 0,
+      "dy_map_px": 0,
+      "contrast": 76,
+      "gain_km2": 19.250554895142375
+    },
+    {
+      "dx_map_px": 2,
+      "dy_map_px": 0,
+      "contrast": 76,
+      "gain_km2": 19.305510257899318
+    },
+    {
+      "dx_map_px": -2,
+      "dy_map_px": 0,
+      "contrast": 76,
+      "gain_km2": 19.202469427398473
+    },
+    {
+      "dx_map_px": 0,
+      "dy_map_px": 2,
+      "contrast": 76,
+      "gain_km2": 19.1935649341791
+    },
+    {
+      "dx_map_px": 0,
+      "dy_map_px": -2,
+      "contrast": 76,
+      "gain_km2": 19.31219327357092
+    },
+    {
+      "dx_map_px": 0,
+      "dy_map_px": 0,
+      "contrast": 56,
+      "gain_km2": 19.697566750091067
+    },
+    {
+      "dx_map_px": 0,
+      "dy_map_px": 0,
+      "contrast": 96,
+      "gain_km2": 18.750709040120515
+    }
+  ]
+}
