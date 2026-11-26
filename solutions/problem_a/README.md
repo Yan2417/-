@@ -4,9 +4,15 @@
 
 第一问以随机森林识别新增淹没像素。第二问用双分支 U-Net 融合灾前光学与灾后 SAR 影像，比较面积误差与空间重叠，并把面积不确定性传递到四级淹没强度。标签 1 按新增淹没区处理。题面未列出类别值，判读依据是先看灾前影像选取河湖，再核查了 9 组灾前已有水体的样点和邻近受淹地块。
 
+## 论文用实验结果
+
+[下载第一、二问完整实验交付包](artifacts/Q1-Q2-experiments.zip)
+
+两种模型在同一批 203 张独立测试切片上评估。第一问汇总指标见 `q1/metrics.json`，第二问见 `q2/fusion_metrics.json` 的 `test` 部分。逐片对比可按 `id` 合并两问的 `test_tiles.csv`。分地表误差见 `q2/assessment/stratified_errors.csv`，逐片强度等级与不确定区间见 `q2/assessment/intensity_by_tile.csv`。包内还含训练代码、冻结权重、划分清单和逐像素预测。
+
 ## 复现已运行的实验
 
-运行环境为 Linux、Python 3.11、PyTorch 2.1.0（实验使用 CUDA 12.1）。其余依赖版本见 requirements.txt。先将竞赛附件解压。数据根目录下应有 `pre-disaster optical images`、`post-disaster SAR images`、`label information` 三个子目录，每个目录含编号 1001–2000 的 1,000 张 TIFF。训练数据和模型权重单独保存在实验交付包。
+运行环境为 Linux、Python 3.11、PyTorch 2.1.0（实验使用 CUDA 12.1）。其余依赖版本见 requirements.txt。先将竞赛附件解压。数据根目录下应有 `pre-disaster optical images`、`post-disaster SAR images`、`label information` 三个子目录，每个目录含编号 1001–2000 的 1,000 张 TIFF。原始附件 1 存放在实验室服务器，训练好的模型权重收录在实验交付包中。
 
 从本代码目录执行，在自己的 Python 环境中安装依赖。把 DATA 改为附件 1 的绝对路径，把 RUN 改为一个新的实验目录。
 
